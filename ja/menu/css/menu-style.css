@@ -1,0 +1,231 @@
+/* codes
+information
+background:#FFEFCD(yelloish)RGB(255, 239, 205)
+font:#304340(dark-green-blackish) RGB(48, 67, 64)
+main:#22733F(green) RGB(34, 115, 63)
+accent:E09132(orange) RGB(224, 145, 50)
+*/
+
+/* note lines */
+main {
+  width: 95vw;
+  margin-top: 2.3em;
+  margin-left: 2vw;
+  margin-right: 2.5vw;
+  margin-bottom: 1em;
+  padding: 0;
+  background-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 5%,
+      #ffefcd 0%,
+      #ffefcd 100%
+    ),
+    linear-gradient(180deg, rgba(34, 115, 63, 0.6) 2px, transparent 1px); /* line setting  */
+  background-size: 2.3em 100%, 100% 2.3em; /* line height */
+  line-height: 2.3em; /* character height */
+}
+/* intro */
+.introduction {
+  width: 60%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.introduction h1 {
+  line-height: 36px;
+  font-size: 45px;
+}
+.introduction ul {
+  display: flex;
+}
+.introduction li {
+  list-style: none;
+}
+.box {
+  margin-top: 30px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  width: 150px;
+  border-radius: 3px;
+  background-color: #22733f;
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  text-align: center;
+  line-height: normal;
+}
+.introduction a {
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffefcd;
+}
+.small {
+  font-size: 10px;
+  vertical-align: top;
+}
+/* website */
+#website {
+  width: 60%;
+  margin-top: 30px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+#website p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.website_contents img {
+  width: 65px;
+  height: 65px;
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+}
+.design,
+.development {
+  margin-top: 3px;
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  width: 115%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  margin-top: 3px;
+  font-weight: 400;
+}
+section {
+  white-space: nowrap;
+  display: flex;
+}
+.website_contents ul {
+  margin-top: 30px;
+  margin-left: -20px;
+  padding: 8px 17px;
+  width: 180px;
+  list-style: none;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  border: 2px solid #e09132;
+}
+.title {
+  font-size: 16px;
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+.price {
+  text-align: right;
+  font-weight: 600;
+  font-size: 15px;
+}
+.development_title {
+  margin-top: 48px;
+  line-height: 25px;
+}
+.development_title span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  white-space: nowrap;
+}
+.development {
+  margin-top: 10px;
+}
+/* option */
+.option {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.option table {
+  margin-top: 20px;
+  width: 100%;
+  line-height: normal;
+  white-space: nowrap;
+  border-collapse: collapse;
+  border: none;
+}
+.option th,
+td {
+  padding: 10px;
+  border: none;
+  border-left: 2px solid rgba(224, 145, 50, 0.4);
+  border-top: 2px solid rgba(224, 145, 50, 0.4);
+}
+
+.option td:first-child,
+th:first-child,
+.null,
+.null-1,
+.null_top-1 {
+  border-left: none;
+}
+.option tr:first-child td,
+tr:first-child th {
+  border-top: none;
+}
+.null,
+.null_top,
+.null_top-1 {
+  border-top: none;
+}
+.option th {
+  font-size: 14px;
+  font-weight: 600;
+}
+.option td {
+  font-size: 14px;
+  font-weight: 600;
+}
+/* package */
+#package {
+  margin-top: 20px;
+  width: 60%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.package_menu table {
+  width: 75%;
+  margin-top: 30px;
+  padding: 0;
+  position: relative;
+  left: 60%;
+  transform: translate(-50%, 0);
+}
+.package_menu th,
+.package_menu td {
+  border: none;
+  text-align: left;
+  letter-spacing: 0.3em;
+  font-size: 16px;
+  font-weight: 600;
+}
+.package_menu td {
+  padding-left: 50px;
+}
+.order_button img {
+  margin-top: 25px;
+  margin-bottom: 80px;
+  transform: rotate(-2deg);
+  width: 200px;
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+}

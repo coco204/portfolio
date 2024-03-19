@@ -1,0 +1,148 @@
+/* codes
+information
+background:#FFEFCD(yelloish)RGB(255, 239, 205)
+font:#304340(dark-green-blackish)
+main:#22733F(green) RGB(34, 115, 63)
+accent:E09132(orange) RGB(224, 145, 50)
+*/
+
+.paper_plane {
+  background-image: url("../../../img/paper_plane.png");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* note lines */
+main {
+  width: 95vw;
+  margin-top: 2.3em;
+  margin-left: 2vw;
+  margin-right: 2.5vw;
+  margin-bottom: 1em;
+  padding: 0;
+  background-image: linear-gradient(
+    180deg,
+    rgba(34, 115, 63, 0.6) 1px,
+    transparent 1px
+  ); /* line setting  */
+  background-size: 100% 2.3em; /* line height */
+  line-height: 2.3em; /* character height */
+}
+
+/* introduction */
+.introduction {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.introduction h1 {
+  text-align: left;
+  font-size: 42px;
+  line-height: 35px;
+  letter-spacing: 0.3em;
+}
+.memo {
+  margin-top: 40px;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* contactform */
+.contactform {
+  margin-top: 35px;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 950px;
+}
+.contactform h2 {
+  text-align: left;
+}
+.contactform p {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  color: #e09132;
+  line-height: 20px;
+}
+.form_contents {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.main_contents label {
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  margin-bottom: 0;
+  color: #304340;
+}
+.mark {
+  color: #e09132;
+}
+.main_contents input,
+textarea,
+select {
+  width: 130%;
+  background-color: rgba(202, 141, 67, 0.13);
+  font-family: "roboto", "Noto Sans JP", sans-serif;
+  color: #304340;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-weight: 400;
+  vertical-align: middle;
+  margin-top: -18px;
+}
+.main_contents textarea {
+  vertical-align: top;
+  margin-top: -5px;
+}
+::placeholder {
+  font-family: "roboto", "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  color: #304340;
+}
+.happy {
+  white-space: nowrap;
+  margin-top: 12px;
+  position: absolute;
+  top: 104.2%;
+  left: 48%;
+  transform: translate(-50%, -0);
+  height: 40px;
+}
+.happy label {
+  line-height: 50px;
+}
+.happy select {
+  width: 80px;
+  margin-top: 2px;
+}
+
+.happy img {
+  width: 60px;
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(0, -50%);
+}
+.submit input {
+  width: 150px;
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.4));
+  position: absolute;
+  bottom: -170px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

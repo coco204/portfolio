@@ -1,0 +1,21 @@
+/* codes
+information
+background:#FFEFCD(yelloish)RGB(255, 239, 205)
+font:#304340(dark-green-blackish)
+main:#22733F(green) RGB(34, 115, 63)
+accent:E09132(orange) RGB(224, 145, 50)
+*/
+
+main {
+  width: 60%;
+  height: 100vh;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+h1 {
+  margin-top: 30px;
+}
+main img {
+  width: 100%;
+}

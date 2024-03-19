@@ -1,0 +1,246 @@
+/* codes
+information
+background:#FFEFCD(yelloish)RGB(255, 239, 205)
+font:#304340(dark-green-blackish)
+main:#22733F(green) RGB(34, 115, 63)
+accent:E09132(orange) RGB(224, 145, 50)
+*/
+
+/* note lines */
+main {
+  width: 96.5vw;
+  margin-top: -3px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      90deg,
+      rgba(34, 115, 63, 0.3) 0%,
+      rgba(34, 115, 63, 0.3) 5%,
+      transparent 0%,
+      transparent 100%
+    ),
+    linear-gradient(180deg, rgba(34, 115, 63, 0.3) 2px, transparent 1px); /* line setting  */
+  background-size: 2em 100%, 100% 2em; /* line height */
+  line-height: 2em; /* character height */
+}
+
+.intoroduction {
+  padding-top: 60px;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.introduction_contents {
+  display: flex;
+}
+.intoroduction p {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.intoroduction img {
+  margin-top: -80px;
+  margin-right: -80px;
+  width: 220px;
+  transform: rotate(6deg);
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+}
+.history {
+  margin-top: 55px;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.history dl {
+  margin-top: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 300px;
+  border-left: 3px solid #304340;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.history dt::before {
+  display: inline-block;
+  margin: 0px 6px 0 8px;
+  width: 15px;
+  height: 15px;
+  content: "";
+  border-radius: 100%;
+  background: #304340;
+  vertical-align: middle;
+}
+.history dt {
+  margin-left: -17px;
+  width: 30%;
+  padding-bottom: 20px;
+  margin-bottom: 12px;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.history dd {
+  width: 70%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+/* contact_button */
+.contact_button--1 {
+  margin-top: 20px;
+  width: 50%;
+  position: relative;
+  left: 40%;
+  transform: translate(-50%, 0);
+  display: flex;
+}
+.contact_button--1 img {
+  width: 200px;
+}
+.contact_button--1 p {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  transform: translate(-50%, 0);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+}
+/* TECHINICAL SKILLS */
+.skills {
+  margin-top: -7px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
+}
+.skill_stickers {
+  margin-top: 33px;
+  height: 200px;
+}
+.skill_stickers img {
+  width: 100px;
+  margin-left: 2px;
+  margin-right: 2px;
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+}
+.group-1 {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.group-2 {
+  display: flex;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/* last_section */
+/* language */
+.last_section {
+  margin-top: 64px;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.language {
+  width: 45%;
+  margin-top: 87px;
+  position: absolute;
+  left: 0%;
+}
+.language img {
+  width: 200px;
+  padding-left: 5px;
+}
+.language table {
+  display: table-cell;
+  line-height: 3.5px;
+  padding-top: 3.5px;
+}
+.language td {
+  vertical-align: middle;
+  padding-top: 28px;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* interest */
+.interest {
+  width: 45%;
+  margin-top: 89px;
+  position: absolute;
+  right: 0%;
+  text-align: center;
+}
+.interest ul {
+  display: flex;
+  margin-top: 30px;
+  list-style: none;
+  position: absolute;
+  left: 60%;
+  transform: translate(-50%, 0);
+  text-align: left;
+}
+.interest li::before {
+  display: inline-block;
+  margin: 0px 6px 0 10px;
+  width: 7px;
+  height: 7px;
+  content: "";
+  border-radius: 100%;
+  background: #304340;
+  vertical-align: middle;
+}
+.interest li {
+  display: inline-block;
+  width: 150px;
+  white-space: nowrap;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* contact_button */
+.contact_button--2 {
+  margin-top: 10px;
+  width: 50%;
+  height: 200px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+}
+.contact_button--2 img {
+  width: 200px;
+  position: absolute;
+  bottom: 35%;
+  right: -25%;
+  transform: translate(-50%, 0);
+}
+.contact_button--2 p {
+  position: absolute;
+  bottom: 60%;
+  right: 1%;
+  transform: translate(-50%, 0);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- SERP -->
+    <title>お問い合わせ</title>
+    <meta name="discription" content="お問い合わせフォーム" />
+
+    <!-- multilingual setting  ※URL修正する！-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, , minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <!-- multilingual setting  ※URL修正する！-->
+    <link rel="alternate" hreflang="en" href="URL/en/contact" />
+    <link rel="alternate" hreflang="ja" href="URL/ja/contact" />
+    <link rel="alternate" hreflang="x-default" href="URL/en/contact" />
+
+    <!-- OGP  ※URL修正する！-->
+    <meta property="og:url" content="URL/ja/contact" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="お仕事依頼、お問い合わせはこちら。" />
+    <meta property="og:description" content="お問い合わせフォーム" />
+    <meta property="og:site_name" content="お問い合わせ" />
+    <meta property="og:image" content="URL/img/ogp_top.png" />
+
+    <!-- favicon -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/style_common-jp.css" />
+    <link rel="stylesheet" href="css/contact-style.css" />
+
+    <!-- en:Inter ja;Noto Sans JP-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="paper_plane">
+      <!-- header -->
+      <header>
+        <div class="header_contents">
+          <!-- logo -->
+          <div class="logo">
+            <a href="../index.html"
+              ><img src="../../img/icon.png" alt="TANAKA COCO"
+            /></a>
+          </div>
+          <!-- multilingal -->
+          <div class="lang">
+            <dl>
+              <dt>LANGUAGE</dt>
+              <div class="lang_dd">
+                <a href="../../en/contact/contact.html"
+                  ><div class="box-1"><dd>ENGLISH</dd></div></a
+                >
+                <a href="#"
+                  ><div class="box-2"><dd>日本語</dd></div></a
+                >
+              </div>
+            </dl>
+          </div>
+          <!-- navigation bar -->
+          <nav>
+            <div class="header_nav">
+              <ul>
+                <li><a href="../aboutme/aboutme.html">ABOUT ME</a></li>
+                <li><a href="../works/works.html">WORKS</a></li>
+                <li><a href="../menu/menu.html">MENU</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+          <hr />
+        </div>
+      </header>
+      <!-- main -->
+      <main>
+        <div class="introduction">
+          <h1>CONTACT ME</h1>
+          <div class="memo">
+            <p>To cheer me up, To work with me OR anything.</p>
+            <p>「励ましのお言葉」から「お仕事のご依頼」まで。</p>
+          </div>
+        </div>
+        <div class="contactform">
+          <h2>Hi COCO,</h2>
+          <p><span class="mark">*</span>入力必須項目</p>
+          <div class="form_contents">
+            <form action="php/contact.php" method="post">
+              <div class="main_contents">
+                <div class="name">
+                  <label for="name"><span class="mark">*</span>お名前：</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="email">
+                  <label for="email"><span class="mark">*</span>e-mail：</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="country">
+                  <label for="country">&nbsp;お住まいの国：</label>
+                  <input type="text" id="country" name="country" />
+                </div>
+                <div class="subject">
+                  <label for="subject"><span class="mark">*</span>件名：</label>
+                  <select name="subject" id="subject" required>
+                    <option value="" selected disabled>選択してください</option>
+                    <option value="cheer you up">励ましの言葉</option>
+                    <option value="cheer you up">とりあえず相談</option>
+                    <option value="work with you">お仕事依頼</option>
+                  </select>
+                </div>
+                <div class="menu">
+                  <label for="menu">&nbsp;メニュー：</label>
+                  <select name="menu" id="menu">
+                    <option value="" selected>
+                      お決まりであれば、選択してください
+                    </option>
+                    <option value="web_design-A">A:デザイン(TOPページ)</option>
+                    <option value="web_design-B">B:デザイン(TOP+3P)</option>
+                    <option value="web_design-C">C:デザイン(TOP+5P)</option>
+                    <option value="web_design-1">
+                      1:デザイン&コーディング(TOPページ)
+                    </option>
+                    <option value="web_design-2">
+                      2:デザイン&コーディング(TOP+3P)
+                    </option>
+                    <option value="web_design-3">
+                      3:デザイン&コーディング(TOP+5P)
+                    </option>
+                    <option value="web_design-other">その他 WEBデザイン</option>
+                    <option value="package_design">パッケージデザイン</option>
+                  </select>
+                </div>
+                <div class="date">
+                  <label for="Ddate">&nbsp;希望納期：</label>
+                  <input type="date" id="Ddate" name="Ddate" />
+                </div>
+                <div class="message">
+                  <label for="message"><span class="mark">*</span>内容：</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="こちらにお問い合わせ内容をどうぞ。"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <div class="happy">
+                <label for="happy"
+                  ><span class="mark">*</span>Have a
+                  <select name="happy" id="happy" required>
+                    <option value="good">good</option>
+                    <option value="wonderful">wonderful</option>
+                    <option value="nice">nice</option>
+                    <option value="great">great</option>
+                  </select>
+                  day
+                  <img
+                    src="../../img/contact_me/contact_smile.png"
+                    alt="smile"
+                  />
+                </label>
+              </div>
+              <div class="submit">
+                <input
+                  type="image"
+                  name="confirm"
+                  width="100"
+                  src="../../img/contact_me/contact_button.png"
+                  alt="confirm"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+      <!-- footer -->
+      <div id="footer"></div>
+      <!-- js import -->
+      <script src="js/include.js" defer></script>
+    </div>
+  </body>
+</html>
