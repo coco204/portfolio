@@ -4,7 +4,7 @@
     
     mb_internal_encoding("UTF-8");
     //↑マルチバイトの文字エンコーディングをUTF-8にします
-    
+
     if($_POST) {
       $to = 'hiroko.tanaka.126@gmail.com';
       //↑このお問い合わせフォームに入力された内容を送る先のメールアドレス。
