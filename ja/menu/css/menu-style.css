@@ -27,7 +27,7 @@ main {
 }
 /* intro */
 .introduction {
-  width: 60%;
+  width: 58%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -44,7 +44,7 @@ main {
 }
 .box {
   margin-top: 30px;
-  margin-right: 20px;
+  margin-right: 25px;
   padding-top: 5px;
   padding-bottom: 0px;
   width: 150px;
@@ -66,7 +66,7 @@ main {
 }
 /* website */
 #website {
-  width: 60%;
+  width: 55%;
   margin-top: 30px;
   text-align: center;
   position: relative;
@@ -86,7 +86,7 @@ main {
 .design,
 .development {
   margin-top: 3px;
-  width: 100%;
+  width: 55vw;
   display: flex;
   align-content: space-between;
   width: 115%;
@@ -107,7 +107,8 @@ section {
 .website_contents ul {
   margin-top: 30px;
   margin-left: -20px;
-  padding: 8px 17px;
+  margin-right: 20px;
+  padding: 10px 20px;
   width: 180px;
   list-style: none;
   text-align: left;

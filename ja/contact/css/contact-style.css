@@ -80,7 +80,7 @@ main {
   transform: translate(-50%, 0);
 }
 .main_contents label {
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -98,11 +98,12 @@ select {
   font-family: "roboto", "Noto Sans JP", sans-serif;
   color: #304340;
   border: none;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   border-radius: 5px;
   font-weight: 400;
   vertical-align: middle;
   margin-top: -18px;
+  letter-spacing: 0.2em;
 }
 .main_contents textarea {
   vertical-align: top;
@@ -118,15 +119,16 @@ select {
   margin-top: 12px;
   position: absolute;
   top: 104.2%;
-  left: 48%;
+  left: 45%;
   transform: translate(-50%, -0);
   height: 40px;
+  letter-spacing: 0.2em;
 }
 .happy label {
   line-height: 50px;
 }
 .happy select {
-  width: 80px;
+  width: 150px;
   margin-top: 2px;
 }
 

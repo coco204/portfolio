@@ -149,7 +149,7 @@ section p {
   left: 40%;
 }
 .contact_button-1 img {
-  width: 250px;
+  width: 17vw;
   position: absolute;
   left: 45%;
 }
@@ -165,7 +165,7 @@ section p {
   transform: translate(-50%, 0);
 }
 .column img {
-  width: 240px;
+  width: 16vw;
   margin-top: 10px;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
 }
@@ -206,10 +206,10 @@ section p {
   font-weight: 700;
 }
 .contactform img {
-  width: 250px;
+  width: 17vw;
 }
 .instagram img {
-  width: 100px;
+  width: 7vw;
 }
 .contactform {
   position: absolute;
