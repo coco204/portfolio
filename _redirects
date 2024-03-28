@@ -1,1 +1,38 @@
-/*    /index.html   200
+## 静的ファイル
+[[redirects]]
+  from = "/img/*"
+  to = "/img/:splat"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/css/*"
+  to = "/css/:splat"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/js/*"
+  to = "/js/:splat"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/manifest.json"
+  to = "/manifest.json"
+  status = 200
+  force = true  
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = true
+
+## 言語ごとのリライト
+[[redirects]]
+  from = "/en/*"
+  to = "/en/:splat"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/*"
+  to = "/ja/:splat"
+  status = 200
+  force = true
