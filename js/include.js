@@ -12,7 +12,7 @@
 
 // include footer
 const includeFooter = new XMLHttpRequest();
-includeFooter.open("GET", "../../footer.html", true);
+includeFooter.open("GET", "../footer.html", true);
 includeFooter.onreadystatechange = function () {
   if (includeFooter.readyState === 4 && includeFooter.status === 200) {
     const footerHTML = includeFooter.responseText;

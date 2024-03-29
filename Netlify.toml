@@ -15,8 +15,8 @@
   status = 200
   force = true
 [[redirects]]
-  from = "/manifest.json"
-  to = "/manifest.json"
+  from = "/site.webmanifest"
+  to = "/site.webmanifest"
   status = 200
   force = true  
 [[redirects]]
