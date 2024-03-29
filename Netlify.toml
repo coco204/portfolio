@@ -24,6 +24,11 @@
   to = "/robots.txt"
   status = 200
   force = true
+[[redirects]]
+  from = "/footer.html"
+  to = "/footer.html"
+  status = 200
+  force = true
 
 ## 言語ごとのリライト
 [[redirects]]
