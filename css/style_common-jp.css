@@ -8,7 +8,9 @@ accent:E09132(orange)
 
 /* background color */
 body {
-  background-color: #ffefcd;
+  background-image: url("/img/background.png");
+  background-size: 100%;
+  background-position: top;
 }
 
 /* font setting 

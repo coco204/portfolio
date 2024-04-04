@@ -16,7 +16,7 @@ accent:E09132(orange) RGB(224, 145, 50)
 /* note lines */
 main {
   width: 95vw;
-  margin-top: 2.3em;
+  margin-top: 2.5em;
   margin-left: 2vw;
   margin-right: 2.5vw;
   margin-bottom: 1em;
@@ -26,8 +26,8 @@ main {
     rgba(34, 115, 63, 0.6) 1px,
     transparent 1px
   ); /* line setting  */
-  background-size: 100% 2.3em; /* line height */
-  line-height: 2.3em; /* character height */
+  background-size: 100% 2.5em; /* line height */
+  line-height: 2.5em; /* character height */
 }
 
 /* introduction */
