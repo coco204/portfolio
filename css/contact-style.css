@@ -32,7 +32,7 @@ main {
 
 /* introduction */
 .introduction {
-  width: 50%;
+  width: 45%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -55,7 +55,7 @@ main {
 /* contactform */
 .contactform {
   margin-top: 35px;
-  width: 50%;
+  width: 45%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);

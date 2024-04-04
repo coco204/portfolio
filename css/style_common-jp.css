@@ -115,7 +115,7 @@ h3 {
 /* logo */
 .logo img {
   margin: 0;
-  height: 72px;
+  height: 95%;
   position: absolute;
   top: 50%;
   left: 12px;
@@ -132,7 +132,7 @@ h3 {
   transform: translate(-50%, -45%);
 }
 .lang dt {
-  font-size: 1vw;
+  font-size: 0.8vw;
   text-align: center;
 }
 .lang_dd {
@@ -140,7 +140,7 @@ h3 {
   display: flex;
   justify-content: center;
   column-gap: 10px;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 .box-1 {
   /* box */

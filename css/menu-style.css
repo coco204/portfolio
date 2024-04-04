@@ -27,7 +27,7 @@ main {
 }
 /* intro */
 .introduction {
-  width: 58%;
+  width: 55%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -89,7 +89,7 @@ main {
   width: 55vw;
   display: flex;
   align-content: space-between;
-  width: 115%;
+  width: 110%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
