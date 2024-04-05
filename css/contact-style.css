@@ -55,7 +55,7 @@ main {
 /* contactform */
 .contactform {
   margin-top: 35px;
-  width: 40%;
+  width: 38%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -93,7 +93,7 @@ main {
 .main_contents input,
 textarea,
 select {
-  width: 130%;
+  width: 100%;
   background-color: rgba(202, 141, 67, 0.13);
   font-family: "roboto", "Noto Sans JP", sans-serif;
   color: #304340;
