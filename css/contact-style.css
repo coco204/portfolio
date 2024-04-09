@@ -44,7 +44,7 @@ main {
   letter-spacing: 0.3em;
 }
 .memo {
-  margin-top: 40px;
+  margin-top: 45px;
   text-align: left;
   font-size: 14px;
   letter-spacing: 0.3em;
@@ -54,7 +54,7 @@ main {
 
 /* contactform */
 .contactform {
-  margin-top: 35px;
+  margin-top: 40px;
   width: 38%;
   position: relative;
   left: 50%;
@@ -102,12 +102,12 @@ select {
   border-radius: 5px;
   font-weight: 400;
   vertical-align: middle;
-  margin-top: -18px;
+  margin-top: -13px;
   letter-spacing: 0.2em;
 }
 .main_contents textarea {
   vertical-align: top;
-  margin-top: -5px;
+  margin-top: -1px;
 }
 ::placeholder {
   font-family: "roboto", "Noto Sans JP", sans-serif;
@@ -118,7 +118,7 @@ select {
   white-space: nowrap;
   margin-top: 12px;
   position: absolute;
-  top: 104.2%;
+  top: 46.1em;
   left: 45%;
   transform: translate(-50%, -0);
   height: 40px;
@@ -129,7 +129,7 @@ select {
 }
 .happy select {
   width: 150px;
-  margin-top: 2px;
+  margin-top: -1px;
 }
 
 .happy img {
@@ -140,11 +140,26 @@ select {
   left: 100%;
   transform: translate(0, -50%);
 }
+/* en */
+.happy input {
+  width: 150px;
+  background-color: rgba(202, 141, 67, 0.13);
+  font-family: "roboto", "Noto Sans JP", sans-serif;
+  color: #304340;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-weight: 400;
+  vertical-align: middle;
+  margin-top: -3px;
+  letter-spacing: 0.2em;
+}
 .submit input {
   width: 150px;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.4));
   position: absolute;
-  bottom: -170px;
+  top: 63em;
   left: 50%;
   transform: translate(-50%, 0);
+  margin-bottom: 5em;
 }

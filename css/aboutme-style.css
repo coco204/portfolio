@@ -9,7 +9,7 @@ accent:E09132(orange) RGB(224, 145, 50)
 /* note lines */
 main {
   width: 96.5vw;
-  margin-top: -3px;
+  margin-top: -2.6px;
   margin-left: 1vw;
   margin-right: 1vw;
   margin-bottom: 0;
@@ -21,13 +21,13 @@ main {
       transparent 0%,
       transparent 100%
     ),
-    linear-gradient(180deg, rgba(34, 115, 63, 0.3) 2px, transparent 1px); /* line setting  */
+    linear-gradient(180deg, rgba(34, 115, 63, 0.2) 2px, transparent 1px); /* line setting  */
   background-size: 2em 100%, 100% 2em; /* line height */
   line-height: 2em; /* character height */
 }
 
 .intoroduction {
-  padding-top: 60px;
+  padding-top: 61px;
   width: 50%;
   position: relative;
   left: 50%;
@@ -40,7 +40,7 @@ main {
   margin-top: 30px;
   font-weight: 700;
   font-size: 14px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
 }
 .intoroduction img {
   margin-top: -80px;
@@ -57,7 +57,7 @@ main {
   transform: translate(-50%, 0);
 }
 .history dl {
-  margin-top: 33px;
+  margin-top: 34px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
