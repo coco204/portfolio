@@ -176,7 +176,7 @@ h2.writing-animation.appeartext span {
  SERVICE FLOW
  ------------- */
 .serviceflow {
-  padding-top: 68px;
+  padding-top: 70px;
   height: 100vh;
 }
 .serviceflow_contents {
@@ -216,7 +216,7 @@ h2.writing-animation.appeartext span {
   position: relative;
 }
 .contact_button-1 img {
-  width: 20vw;
+  width: 25vw;
   position: absolute;
   bottom: 5%;
   left: 60%;
@@ -250,24 +250,24 @@ h2.writing-animation.appeartext span {
 }
 .column img {
   width: 16vw;
-  margin-top: 10px;
+  margin-top: 12px;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
 }
 
 .aboutme {
   position: absolute;
-  top: 15%;
+  top: 18%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 .works {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 0;
 }
 .menu {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 0;
 }
 
@@ -338,7 +338,7 @@ h2.writing-animation.appeartext span {
 contact me
 ----------------*/
 .contactme {
-  padding-top: 15%;
+  padding-top: 10%;
   height: 60vh;
 }
 .contactme_contents {
