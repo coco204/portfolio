@@ -6,20 +6,24 @@ main:#22733F(green)
 accent:E09132(orange)
 */
 
-/* background color */
+/* -------------------
+background color
+---------------------- */
 body {
   background-color: #ffefcd;
-  background-image: url("/img/background.png");
+  /* background-image: url("/img/background.png"); */
   background-size: 100%;
   background-position: top;
 }
 
-/* font setting 
+/*------------------
+ font setting 
 en: Inter(google fonts)
 jp: Noto Sans JP(google fonts)*/
 
 /* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
+// <weight>: Use a value from 100 to 900 
+---------------------------------------------------------*/
 
 .inter-regular {
   font-family: "Inter", sans-serif;
@@ -143,7 +147,10 @@ h3 {
   column-gap: 10px;
   font-size: 1.2vw;
 }
-.box-2 {
+/* -----
+jp
+--------*/
+.box-1 {
   /* box */
   height: 1.7vw;
   width: 8vw;
@@ -160,7 +167,7 @@ h3 {
   text-decoration: none;
   color: #22733f;
 }
-.box-1 {
+.box-2 {
   /* box */
   height: 1.7vw;
   width: 8vw;
@@ -177,7 +184,43 @@ h3 {
   text-decoration: none;
   color: #ffefcd;
 }
-
+/* -----
+en 
+--------*/
+.box-2-en {
+  /* box */
+  height: 1.7vw;
+  width: 8vw;
+  background-color: #ffefcd;
+  border: 3px solid #22733f;
+  border-radius: 3px;
+  padding: auto;
+  margin: auto;
+  /* letter */
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5vw;
+  text-decoration: none;
+  color: #22733f;
+}
+.box-1-en {
+  /* box */
+  height: 1.7vw;
+  width: 8vw;
+  background-color: #22733f;
+  border: 3px solid #22733f;
+  border-radius: 3px;
+  padding: auto;
+  margin: auto;
+  /* letter */
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5vw;
+  text-decoration: none;
+  color: #ffefcd;
+}
 /* nav */
 .header_nav ul {
   display: flex;

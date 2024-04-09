@@ -42,7 +42,7 @@ main {
   width: 100%;
   text-align: center;
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, 0);
   animation-name: fadeInAnime;
@@ -62,11 +62,11 @@ main {
 }
 
 .title p {
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.5em;
   line-height: 110px;
 }
-.writing-animation span {
+/* .writing-animation span {
   opacity: 0;
 }
 p.writing-animation.appeartext span {
@@ -80,15 +80,27 @@ p.writing-animation.appeartext span {
   100% {
     opacity: 1;
   }
-}
+} */
 
-.logo,
-.lang,
-.header_nav {
+.logo {
+  animation-name: fadeInAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  opacity: 0;
+}
+.lang {
   animation-name: fadeInAnime;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.5s;
+  opacity: 0;
+}
+.header_nav {
+  animation-name: fadeInAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
   opacity: 0;
 }
 

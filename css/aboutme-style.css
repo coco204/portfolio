@@ -118,7 +118,9 @@ main {
   line-height: 16px;
   letter-spacing: 0.1em;
 }
-/* TECHINICAL SKILLS */
+/* ---------------
+TECHINICAL SKILLS 
+------------------*/
 .skills {
   margin-top: -7px;
   position: relative;
@@ -148,6 +150,9 @@ main {
   top: 64%;
   left: 50%;
   transform: translate(-50%, 0);
+}
+.php {
+  opacity: 0;
 }
 /* last_section */
 /* language */
