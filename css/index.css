@@ -32,7 +32,7 @@ main {
 /*----------------
  fv 
  ----------------*/
-#fv-jp {
+#fv {
   width: 100%;
   height: 80vh;
   position: relative;
@@ -176,6 +176,8 @@ p.writing-animation.appeartext span {
  ------------- */
 .serviceflow {
   padding-top: 60px;
+  height: 100vh;
+  background-color: yellowgreen;
 }
 .serviceflow_contents {
   width: 60%;
@@ -189,7 +191,7 @@ p.writing-animation.appeartext span {
   justify-content: space-between;
   column-gap: 30px;
 }
-section {
+.serviceflow_contents section {
   width: 300px;
   text-align: center;
 }
@@ -197,7 +199,7 @@ section {
   width: 170px;
   margin-top: -5px;
 }
-section p {
+.serviceflow_contents section p {
   margin-top: -18px;
   font-size: 14px;
   letter-spacing: normal;
@@ -250,10 +252,11 @@ section p {
   margin-top: 135px;
   display: flex;
   width: 60%;
-  height: 60vh;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+  height: 100vh;
+  background-color: aqua;
 }
 .column img {
   width: 16vw;
@@ -345,7 +348,8 @@ section p {
 contact me
 ----------------*/
 .contactme {
-  margin-top: 105px;
+  height: 80vh;
+  background-color: yellowgreen;
 }
 .contactme_contents {
   margin-top: 25px;
