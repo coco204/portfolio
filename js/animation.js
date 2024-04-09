@@ -13,9 +13,8 @@ function waControl() {
     }
   });
 }
-
-// load---after loding the screen
-$(window).on("load", function () {
+// afterscroll
+$(window).scroll(function () {
   //add span
   var element = $(".writing-animation");
   element.each(function () {
@@ -40,3 +39,30 @@ $(window).on("load", function () {
 
   waControl();
 });
+
+// // load---after loding the screen
+// $(window).on("load", function () {
+//   //add span
+//   var element = $(".writing-animation");
+//   element.each(function () {
+//     var text = $(this).text();
+//     var textbox = "";
+//     text.split("").forEach(function (t, i) {
+//       if (t !== " ") {
+//         if (i < 10) {
+//           textbox +=
+//             '<span style="animation-delay:.' + i + 's;">' + t + "</span>";
+//         } else {
+//           var n = i / 10;
+//           textbox +=
+//             '<span style="animation-delay:' + n + 's;">' + t + "</span>";
+//         }
+//       } else {
+//         textbox += t;
+//       }
+//     });
+//     $(this).html(textbox);
+//   });
+
+//   waControl();
+// });

@@ -65,21 +65,6 @@ main {
   letter-spacing: 0.5em;
   line-height: 115px;
 }
-/* .writing-animation span {
-  opacity: 0;
-}
-p.writing-animation.appeartext span {
-  animation: text_anime_on 0.8s ease forwards;
-  animation-delay: 1s;
-}
-@keyframes text_anime_on {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
 
 .logo {
   animation-name: fadeInAnime;
@@ -110,7 +95,23 @@ p.writing-animation.appeartext span {
   left: 5%;
   transform: translate(-50%, 0);
 }
-
+/* --------------
+writing-animation
+---------------- */
+.writing-animation span {
+  opacity: 0;
+}
+h2.writing-animation.appeartext span {
+  animation: text_anime_on 0.8s ease forwards;
+}
+@keyframes text_anime_on {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*---------------
  SERVICE 
  ----------------*/
@@ -120,6 +121,7 @@ p.writing-animation.appeartext span {
   height: 100vh;
   position: relative;
 }
+
 .service_contents {
   margin-top: 42px;
   display: flex;
