@@ -42,7 +42,7 @@ main {
   width: 100%;
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 33%;
   left: 50%;
   transform: translate(-50%, 0);
   animation-name: fadeInAnime;
@@ -224,7 +224,7 @@ section p {
   left: 40%;
 }
 .contact_button-1 img {
-  width: 17vw;
+  width: 25vw;
   position: absolute;
   left: 45%;
 }
