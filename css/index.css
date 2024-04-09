@@ -176,7 +176,7 @@ h2.writing-animation.appeartext span {
  SERVICE FLOW
  ------------- */
 .serviceflow {
-  padding-top: 65px;
+  padding-top: 68px;
   height: 100vh;
 }
 .serviceflow_contents {
@@ -256,18 +256,18 @@ h2.writing-animation.appeartext span {
 
 .aboutme {
   position: absolute;
-  top: 18%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 .works {
   position: absolute;
-  top: 48%;
+  top: 50%;
   left: 0;
 }
 .menu {
   position: absolute;
-  top: 48%;
+  top: 50%;
   right: 0;
 }
 
@@ -338,7 +338,7 @@ h2.writing-animation.appeartext span {
 contact me
 ----------------*/
 .contactme {
-  padding-top: 12%;
+  padding-top: 15%;
   height: 60vh;
 }
 .contactme_contents {
