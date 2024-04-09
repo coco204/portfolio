@@ -256,18 +256,18 @@ h2.writing-animation.appeartext span {
 
 .aboutme {
   position: absolute;
-  top: 18%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 .works {
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 0;
 }
 .menu {
   position: absolute;
-  top: 45%;
+  top: 48%;
   right: 0;
 }
 
@@ -338,7 +338,7 @@ h2.writing-animation.appeartext span {
 contact me
 ----------------*/
 .contactme {
-  padding-top: 10%;
+  padding-top: 8%;
   height: 60vh;
 }
 .contactme_contents {
