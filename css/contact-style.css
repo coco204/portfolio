@@ -158,7 +158,7 @@ select {
   width: 150px;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.4));
   position: absolute;
-  top: 63em;
+  top: 62.5em;
   left: 50%;
   transform: translate(-50%, 0);
   margin-bottom: 5em;
