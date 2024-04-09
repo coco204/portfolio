@@ -64,7 +64,7 @@ main {
 .title p {
   font-size: 18px;
   letter-spacing: 0.5em;
-  line-height: 110px;
+  line-height: 115px;
 }
 /* .writing-animation span {
   opacity: 0;
@@ -209,7 +209,7 @@ section p {
  jump to contact 
  ----------------*/
 .contact_button-1 {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
   height: 20vh;
   position: relative;
