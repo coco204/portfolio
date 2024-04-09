@@ -41,7 +41,7 @@ main {
   width: 100%;
   text-align: center;
   position: absolute;
-  margin-top: 12.5em;
+  margin-top: 12.1em;
   left: 50%;
   transform: translate(-50%, 0);
   animation-name: fadeInAnime;
@@ -63,7 +63,7 @@ main {
 .title p {
   font-size: 18px;
   letter-spacing: 0.5em;
-  line-height: 115px;
+  line-height: 112px;
 }
 
 .logo {
@@ -116,7 +116,7 @@ h2.writing-animation.appeartext span {
  SERVICE 
  ----------------*/
 .service {
-  padding-top: 12%;
+  padding-top: 12.9em;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -176,7 +176,7 @@ h2.writing-animation.appeartext span {
  SERVICE FLOW
  ------------- */
 .serviceflow {
-  padding-top: 70px;
+  padding-top: 4.3em;
   height: 100vh;
 }
 .serviceflow_contents {
@@ -256,18 +256,18 @@ h2.writing-animation.appeartext span {
 
 .aboutme {
   position: absolute;
-  top: 15%;
+  top: 11.8em;
   left: 50%;
   transform: translate(-50%, 0);
 }
 .works {
   position: absolute;
-  top: 48%;
+  top: 24.3em;
   left: 0;
 }
 .menu {
   position: absolute;
-  top: 48%;
+  top: 24.3em;
   right: 0;
 }
 
@@ -338,8 +338,8 @@ h2.writing-animation.appeartext span {
 contact me
 ----------------*/
 .contactme {
-  padding-top: 5%;
-  height: 70vh;
+  padding-top: 13.6em;
+  height: 65vh;
 }
 .contactme_contents {
   margin-top: 25px;
@@ -378,13 +378,13 @@ contact me
   line-height: 35px;
   font-size: 16px;
   position: absolute;
-  top: 95%;
+  top: 10.5em;
   left: 55%;
   transform: translate(-50%, 0);
   white-space: nowrap;
 }
 .instagram p {
-  margin-top: 49px;
+  margin-top: 4.8em;
   line-height: 35px;
   font-size: 16px;
   font-weight: 400;
