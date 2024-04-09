@@ -115,7 +115,7 @@ p.writing-animation.appeartext span {
  SERVICE 
  ----------------*/
 .service {
-  padding-top: 15%;
+  padding-top: 12%;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -174,7 +174,7 @@ p.writing-animation.appeartext span {
  SERVICE FLOW
  ------------- */
 .serviceflow {
-  padding-top: 60px;
+  padding-top: 65px;
   height: 100vh;
 }
 .serviceflow_contents {
@@ -254,18 +254,18 @@ p.writing-animation.appeartext span {
 
 .aboutme {
   position: absolute;
-  top: 15%;
+  top: 18%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 .works {
   position: absolute;
-  top: 42%;
+  top: 48%;
   left: 0;
 }
 .menu {
   position: absolute;
-  top: 42%;
+  top: 48%;
   right: 0;
 }
 
@@ -336,7 +336,7 @@ p.writing-animation.appeartext span {
 contact me
 ----------------*/
 .contactme {
-  padding-top: 10%;
+  padding-top: 12%;
   height: 60vh;
 }
 .contactme_contents {
@@ -376,13 +376,13 @@ contact me
   line-height: 35px;
   font-size: 16px;
   position: absolute;
-  top: 88%;
+  top: 95%;
   left: 55%;
   transform: translate(-50%, 0);
   white-space: nowrap;
 }
 .instagram p {
-  margin-top: 25px;
+  margin-top: 49px;
   line-height: 35px;
   font-size: 16px;
   font-weight: 400;
