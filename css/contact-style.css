@@ -59,7 +59,7 @@ main {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-  height: 950px;
+  height: 65em;
 }
 .contactform h2 {
   text-align: left;
