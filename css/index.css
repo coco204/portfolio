@@ -7,7 +7,6 @@ accent:E09132(orange) RGB(224, 145, 50)
 */
 
 body {
-  background-image: url("../../../img/background.png");
   background-size: 100%;
   background-position: top;
 }
@@ -116,10 +115,11 @@ p.writing-animation.appeartext span {
  SERVICE 
  ----------------*/
 .service {
-  margin-top: 45px;
+  padding-top: 15%;
   width: 100%;
-  height: 40vh;
+  height: 100vh;
   position: relative;
+  background-color: aqua;
 }
 .service_contents {
   margin-top: 42px;
@@ -162,7 +162,7 @@ p.writing-animation.appeartext span {
   width: 200px;
   position: relative;
   left: 57%;
-  top: 50%;
+  top: 40%;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
 }
 /* hover */
@@ -175,11 +175,10 @@ p.writing-animation.appeartext span {
  SERVICE FLOW
  ------------- */
 .serviceflow {
-  margin-top: 165px;
+  padding-top: 60px;
 }
 .serviceflow_contents {
   width: 60%;
-  height: 65vh;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
