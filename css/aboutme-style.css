@@ -265,7 +265,7 @@ ipad landscape
 ipad portrate
 ----------------- */
 
-@media (orientation: portrait) and (max-width: 768px) {
+@media (max-width: 835px) {
   main {
     width: 96vw;
     margin-left: 1vw;

@@ -272,7 +272,7 @@ ipad landscape
 /* ----------------
 ipad portrate
 ----------------- */
-@media (max-width: 768px) {
+@media (max-width: 835px) {
   /* intro */
   .introduction {
     width: 90%;

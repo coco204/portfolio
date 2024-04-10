@@ -225,7 +225,7 @@ button img:hover {
 /* ----------------
 ipad portrate
 ----------------- */
-@media (max-width: 768px) {
+@media (max-width: 835px) {
   /* introduction */
   .introduction {
     width: 70%;
