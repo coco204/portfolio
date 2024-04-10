@@ -114,6 +114,14 @@ select {
   font-weight: 400;
   color: #304340;
 }
+.main_contents input:focus,
+textarea:focus,
+select:focus,
+.happy input:focus {
+  outline: 2px solid #e09132;
+  color: #304340;
+}
+
 .happy {
   white-space: nowrap;
   margin-top: 12px;
