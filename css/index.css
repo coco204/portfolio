@@ -626,11 +626,11 @@ ipad portrate
 
 @media (orientation: portrait) and (max-width: 835px) {
   main {
-    height: 280em;
+    height: 290em;
   }
   /* service */
   .service {
-    top: 65em;
+    top: 70em;
   }
   /* serviceflow */
   .serviceflow {
