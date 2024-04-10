@@ -269,3 +269,88 @@ ipad landscape
     transform: translate(-50%, 0);
   }
 }
+/* ----------------
+ipad portrate
+----------------- */
+/* portrait */
+@media (orientation: landscape) and (max-width: 768px) {
+  /* intro */
+  .introduction {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 146px;
+  }
+  /* website */
+  #website {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .website_contents img {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  }
+  .design,
+  .development {
+    margin-top: 3px;
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  h3 {
+    text-align: left;
+    margin-top: 3px;
+    font-weight: 400;
+  }
+  section {
+    white-space: nowrap;
+    display: flex;
+  }
+  .website_contents ul {
+    margin-top: 30px;
+    margin-left: -20px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    width: 120px;
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    border: 2px solid #e09132;
+  }
+  .title {
+    font-size: 16px;
+    margin-bottom: 3px;
+    font-weight: 600;
+  }
+  .price {
+    text-align: right;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .development_title {
+    margin-top: 48px;
+    line-height: 25px;
+  }
+  .development_title span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    white-space: nowrap;
+    letter-spacing: 0.2em;
+  }
+  .development {
+    margin-top: 10px;
+  }
+}
