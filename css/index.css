@@ -429,7 +429,7 @@ contact me
 ipad landscape
 ------------------- */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .column img {
     width: 24vw;
     margin-top: 12px;

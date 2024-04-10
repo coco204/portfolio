@@ -223,7 +223,7 @@ tr:first-child th {
   margin-top: 30px;
   padding: 0;
   position: relative;
-  left: 60%;
+  left: 50%;
   transform: translate(-50%, 0);
 }
 .package_menu th,
@@ -251,11 +251,21 @@ tr:first-child th {
 ipad landscape
 ------------------- */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .introduction {
-    width: 70%;
+    width: 68%;
   }
   #website {
-    width: 70%;
+    width: 68%;
+  }
+  .design,
+  .development {
+    margin-top: 3px;
+    display: flex;
+    align-content: space-between;
+    width: 110%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 }
