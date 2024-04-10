@@ -626,7 +626,7 @@ ipad portrate
 
 @media (orientation: portrait) and (max-width: 835px) {
   main {
-    height: 270em;
+    height: 280em;
   }
   /* service */
   .service {
@@ -752,7 +752,7 @@ ipad portrate
   /* contact */
   .contactme {
     position: absolute;
-    top: 252.5em;
+    top: 250em;
     left: 50%;
     transform: translate(-50%, 0);
   }
