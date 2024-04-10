@@ -445,7 +445,7 @@ ipad portrate
 
 @media (orientation: portrait) and (max-width: 835px) {
   main {
-    height: 220em;
+    height: 230em;
   }
   /* service */
   .service {
@@ -454,7 +454,7 @@ ipad portrate
 
   /* serviceflow */
   .serviceflow {
-    top: 95em;
+    top: 130em;
     width: 80vw;
   }
   .serviceflow_contents {
@@ -541,7 +541,7 @@ ipad portrate
     display: flex;
     width: 45%;
     position: absolute;
-    top: 142.5em;
+    top: 167.5em;
     left: 50%;
     transform: translate(-50%, 0);
     height: 100vh;
@@ -572,7 +572,189 @@ ipad portrate
   /* contact */
   .contactme {
     position: absolute;
-    top: 190em;
+    top: 215em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .contactme_contents {
+    margin-top: 25px;
+    text-align: center;
+    height: 50vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 40vw;
+  }
+  .or {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+  }
+  .contactform img {
+    width: 30vw;
+  }
+  .instagram img {
+    width: 12vw;
+  }
+  .contactform {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    transform: translate(-50%, 0);
+  }
+  .instagram {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform: translate(50%, 0);
+  }
+  .contactform p {
+    line-height: 35px;
+    font-size: 16px;
+    position: absolute;
+    top: 10.3em;
+    left: 55%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+  }
+  .instagram p {
+    position: absolute;
+    top: 9.5em;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+}
+/* ----------------
+max-width: 835px
+----------------- */
+@media (max-width: 835px) {
+  main {
+    height: 207.5em;
+  }
+  /* serviceflow */
+  .serviceflow {
+    width: 80vw;
+  }
+  .serviceflow_contents {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+  }
+  .serviceflow_contents section {
+    width: 100%;
+    text-align: center;
+  }
+  .serviceflow_contents img {
+    width: 80px;
+    margin-top: -5px;
+  }
+  .serviceflow_contents section p {
+    margin-top: -18px;
+    font-size: 14px;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  /* h3 */
+  .serviceflow_contents section:nth-child(1) h3 {
+    position: absolute;
+    left: 80px;
+  }
+  .serviceflow_contents section:nth-child(2) h3 {
+    position: absolute;
+    left: 80px;
+    top: 11.2em;
+  }
+  .serviceflow_contents section:nth-child(3) h3 {
+    position: absolute;
+    left: 80px;
+    top: 20em;
+  }
+  /* img */
+  .serviceflow_contents section:nth-child(1) img {
+    position: absolute;
+    left: 0%;
+    top: -1em;
+  }
+  .serviceflow_contents section:nth-child(2) img {
+    position: absolute;
+    left: 0%;
+    top: 11.5em;
+  }
+  .serviceflow_contents section:nth-child(3) img {
+    position: absolute;
+    left: 0%;
+    top: 21.3em;
+  }
+  /* p */
+  .serviceflow_contents section:nth-child(1) p {
+    position: absolute;
+    left: 80px;
+    top: 4.2em;
+  }
+  .serviceflow_contents section:nth-child(2) p {
+    position: absolute;
+    left: 80px;
+    top: 18.5em;
+  }
+  .serviceflow_contents section:nth-child(3) p {
+    position: absolute;
+    left: 80px;
+    top: 29.9em;
+  }
+
+  /* contact-button */
+  .contact_button-1 {
+    position: absolute;
+    left: 60%;
+    top: 32em;
+  }
+  .contact_button-1 img {
+    width: 28vw;
+    position: absolute;
+    bottom: 5%;
+    left: 60%;
+  }
+  /* column */
+  .column {
+    display: flex;
+    width: 45%;
+    position: absolute;
+    top: 130em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100vh;
+  }
+  .column img {
+    width: 30vw;
+    margin-top: 12px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  }
+
+  .aboutme {
+    position: absolute;
+    left: 0%;
+    transform: translate(-50%, 0);
+  }
+  .works {
+    position: absolute;
+    top: 22.5em;
+    left: 0%;
+    transform: translate(-50%, 0);
+  }
+  .menu {
+    position: absolute;
+    top: 12.5em;
+    right: 0%;
+    transform: translate(50%, 0);
+  }
+  /* contact */
+  .contactme {
+    position: absolute;
+    top: 180em;
     left: 50%;
     transform: translate(-50%, 0);
   }
