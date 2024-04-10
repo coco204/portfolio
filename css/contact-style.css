@@ -166,19 +166,22 @@ select:focus,
 button {
   border: none;
   background: transparent;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 button img {
   width: 150px;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   position: absolute;
-  top: 62.3em;
+  top: 6.2em;
   left: 50%;
   transform: translate(-50%, 0);
 }
 button img:hover {
   filter: none;
   position: absolute;
-  top: 62.5em;
+  top: 6.4em;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-48%, 0);
 }
