@@ -140,11 +140,12 @@ h3 {
   font-size: 0.8vw;
   text-align: center;
 }
-.lang_dd {
+.lang_dd-jp,
+.lang_dd-en {
   margin: 5px;
   display: flex;
   justify-content: center;
-  column-gap: 10px;
+  column-gap: 8px;
   font-size: 1.2vw;
 }
 /* -----
@@ -158,7 +159,7 @@ jp
   border: 3px solid #22733f;
   border-radius: 3px;
   padding: auto;
-  margin: auto;
+  margin: 1px;
   /* letter */
   display: inline-block;
   text-align: center;
@@ -175,7 +176,7 @@ jp
   border: 3px solid #22733f;
   border-radius: 3px;
   padding: auto;
-  margin: auto;
+  margin: 1px;
   /* letter */
   display: inline-block;
   text-align: center;
@@ -183,6 +184,16 @@ jp
   line-height: 1.5vw;
   text-decoration: none;
   color: #ffefcd;
+}
+.box-1:hover,
+.box-2:hover,
+.box-1-en:hover,
+.box-2-en:hover {
+  filter: drop-shadow(-1px -1px 0 rgb(34, 115, 63));
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 /* -----
 en 
@@ -195,7 +206,7 @@ en
   border: 3px solid #22733f;
   border-radius: 3px;
   padding: auto;
-  margin: auto;
+  margin: 1px;
   /* letter */
   display: inline-block;
   text-align: center;
@@ -212,7 +223,7 @@ en
   border: 3px solid #22733f;
   border-radius: 3px;
   padding: auto;
-  margin: auto;
+  margin: 1px;
   /* letter */
   display: inline-block;
   text-align: center;

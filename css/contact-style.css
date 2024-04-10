@@ -28,12 +28,14 @@ main {
   ); /* line setting  */
   background-size: 100% 2.5em; /* line height */
   line-height: 2.5em; /* character height */
+  position: relative;
+  height: 75em;
 }
 
 /* introduction */
 .introduction {
   width: 40%;
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -54,12 +56,11 @@ main {
 
 /* contactform */
 .contactform {
-  margin-top: 40px;
   width: 38%;
-  position: relative;
+  position: absolute;
+  top: 12.5em;
   left: 50%;
   transform: translate(-50%, 0);
-  height: 65em;
 }
 .contactform h2 {
   text-align: left;
@@ -164,10 +165,17 @@ select:focus,
 }
 .submit input {
   width: 150px;
-  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  position: absolute;
+  top: 62.3em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 5em;
+}
+.submit input:hover {
+  filter: none;
   position: absolute;
   top: 62.5em;
   left: 50%;
   transform: translate(-50%, 0);
-  margin-bottom: 5em;
 }

@@ -31,6 +31,7 @@ main {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+  height: 146px;
 }
 .introduction h1 {
   line-height: 36px;
@@ -42,7 +43,8 @@ main {
 .introduction li {
   list-style: none;
 }
-.box {
+.jump-1,
+.jump-2 {
   margin-top: 30px;
   margin-right: 25px;
   padding-top: 5px;
@@ -53,6 +55,19 @@ main {
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   text-align: center;
   line-height: normal;
+}
+.jump-1:hover {
+  filter: none;
+  margin-top: 32px;
+  margin-left: 2px;
+  margin-right: 23px;
+  opacity: 0.8;
+}
+.jump-2:hover {
+  filter: none;
+  margin-top: 32px;
+  margin-left: 2px;
+  opacity: 0.8;
 }
 .introduction a {
   text-align: center;
@@ -67,9 +82,9 @@ main {
 /* website */
 #website {
   width: 50%;
-  margin-top: 30px;
   text-align: center;
   position: relative;
+  top: 0px;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -86,10 +101,9 @@ main {
 .design,
 .development {
   margin-top: 3px;
-  width: 55vw;
   display: flex;
   align-content: space-between;
-  width: 110%;
+  width: 115%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -228,5 +242,8 @@ tr:first-child th {
   margin-bottom: 80px;
   transform: rotate(-2deg);
   width: 200px;
-  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.3));
+}
+.order_button:hover img {
+  opacity: 0.8;
 }
