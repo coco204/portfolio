@@ -142,7 +142,6 @@ h3 {
 }
 .lang_dd-jp,
 .lang_dd-en {
-  margin: 5px;
   display: flex;
   justify-content: center;
   column-gap: 8px;
@@ -159,7 +158,9 @@ jp
   border: 3px solid #22733f;
   border-radius: 3px;
   padding: auto;
-  margin: 1px;
+  margin: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
   /* letter */
   display: inline-block;
   text-align: center;
@@ -176,7 +177,9 @@ jp
   border: 3px solid #22733f;
   border-radius: 3px;
   padding: auto;
-  margin: 1px;
+  margin: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
   /* letter */
   display: inline-block;
   text-align: center;
@@ -186,14 +189,18 @@ jp
   color: #ffefcd;
 }
 .box-1:hover,
-.box-2:hover,
-.box-1-en:hover,
 .box-2-en:hover {
   filter: drop-shadow(-1px -1px 0 rgb(34, 115, 63));
-  margin-top: 2px;
+  margin-top: 6px;
   margin-left: 2px;
   margin-right: 0px;
-  margin-bottom: 0px;
+}
+.box-2:hover,
+.box-1-en:hover {
+  filter: drop-shadow(-1px -1px 0 rgb(91, 146, 110));
+  margin-top: 6px;
+  margin-left: 2px;
+  margin-right: 0px;
 }
 /* -----
 en 
@@ -206,7 +213,9 @@ en
   border: 3px solid #22733f;
   border-radius: 3px;
   padding: auto;
-  margin: 1px;
+  margin: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
   /* letter */
   display: inline-block;
   text-align: center;
@@ -223,7 +232,9 @@ en
   border: 3px solid #22733f;
   border-radius: 3px;
   padding: auto;
-  margin: 1px;
+  margin: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
   /* letter */
   display: inline-block;
   text-align: center;
