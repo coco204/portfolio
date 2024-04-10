@@ -221,3 +221,56 @@ button img:hover {
   left: 50%;
   transform: translate(-48%, 0);
 }
+
+/* ----------------
+ipad portrate
+----------------- */
+@media (max-width: 768px) {
+  /* introduction */
+  .introduction {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  /* contactform */
+  .contactform {
+    width: 60%;
+    position: absolute;
+    top: 12.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  input,
+  textarea,
+  select {
+    width: 55vw;
+    background-color: rgba(202, 141, 67, 0.13);
+    font-family: "roboto", "Noto Sans JP", sans-serif;
+    color: #304340;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-weight: 400;
+    vertical-align: middle;
+    margin-top: -13px;
+    letter-spacing: 0.2em;
+  }
+
+  /* input date setting */
+  input[type="date"] {
+    width: 55vw;
+    background-color: rgba(202, 141, 67, 0.13);
+    font-family: "roboto", "Noto Sans JP", sans-serif;
+    color: #304340;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-weight: 400;
+    vertical-align: middle;
+    margin-top: -13px;
+    letter-spacing: 0.2em;
+    height: 20px;
+    text-align: left;
+  }
+}

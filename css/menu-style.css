@@ -272,8 +272,7 @@ ipad landscape
 /* ----------------
 ipad portrate
 ----------------- */
-/* portrait */
-@media (orientation: landscape) and (max-width: 768px) {
+@media (max-width: 768px) {
   /* intro */
   .introduction {
     width: 90%;
@@ -303,7 +302,7 @@ ipad portrate
     align-content: space-between;
     width: 100%;
     position: relative;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, 0);
   }
   h3 {
@@ -317,10 +316,10 @@ ipad portrate
   }
   .website_contents ul {
     margin-top: 30px;
-    margin-left: -20px;
-    margin-right: 5px;
+    margin-left: -25px;
+    margin-right: 8px;
     padding: 10px 20px;
-    width: 120px;
+    width: 150px;
     list-style: none;
     text-align: left;
     font-size: 12px;
@@ -352,5 +351,26 @@ ipad portrate
   }
   .development {
     margin-top: 10px;
+  }
+  .option {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  /* package */
+  #package {
+    margin-top: 20px;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
   }
 }
