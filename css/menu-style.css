@@ -275,7 +275,7 @@ ipad portrate
 @media (max-width: 835px) {
   /* intro */
   .introduction {
-    width: 90%;
+    width: 85%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -283,7 +283,7 @@ ipad portrate
   }
   /* website */
   #website {
-    width: 90%;
+    width: 85%;
     text-align: center;
     position: relative;
     top: 0px;
@@ -353,11 +353,10 @@ ipad portrate
     margin-top: 10px;
   }
   .option {
-    margin-top: 30px;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.2em;
-    width: 80%;
+    width: 75%;
     margin-top: 30px;
     text-align: center;
     position: relative;
