@@ -163,16 +163,19 @@ select:focus,
   margin-top: -3px;
   letter-spacing: 0.2em;
 }
-.submit input {
+button {
+  border: none;
+  background: transparent;
+}
+.submit img {
   width: 150px;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   position: absolute;
   top: 62.3em;
   left: 50%;
   transform: translate(-50%, 0);
-  margin-bottom: 5em;
 }
-.submit input:hover {
+.submit:hover img {
   filter: none;
   position: absolute;
   top: 62.5em;

@@ -213,7 +213,7 @@ tr:first-child th {
   margin-top: 20px;
   width: 60%;
   position: relative;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, 0);
   text-align: center;
 }
