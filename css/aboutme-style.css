@@ -260,3 +260,108 @@ ipad landscape
     left: 8em;
   }
 }
+
+/* ----------------
+ipad portrate
+----------------- */
+
+@media (orientation: landscape) and (max-width: 768px) {
+  main {
+    width: 96vw;
+    margin-left: 1vw;
+    margin-right: 1.4vw;
+  }
+  .intoroduction {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .intoroduction p {
+    margin-top: 2.3em;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    width: 65%;
+  }
+  .intoroduction img {
+    position: absolute;
+    margin-top: -80px;
+    right: 10%;
+    transform: translate(50%, 0);
+    height: 28em;
+    transform: rotate(6deg);
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  }
+  .history {
+    width: 90%;
+    position: absolute;
+    top: 38em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .history dt {
+    margin-left: -17px;
+    margin-right: 10px;
+    width: 30%;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+    font-weight: 800;
+    font-size: 14px;
+  }
+  /* contact_button */
+  .contact_button--1 {
+    position: relative;
+  }
+  .contact_button--1 img {
+    height: 9em;
+    position: absolute;
+    top: 60em;
+    left: 0%;
+  }
+  .skills {
+    position: absolute;
+    top: 72em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+  }
+  .skill_stickers {
+    margin-top: 33px;
+    height: 200px;
+  }
+  .last_section {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    top: 90.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .language td {
+    vertical-align: middle;
+    padding-top: 28px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .interest li {
+    display: inline-block;
+    width: 130px;
+    white-space: nowrap;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /* contact_button */
+  .contact_button--2 {
+    position: relative;
+  }
+  .contact_button--2 img {
+    position: absolute;
+    top: 112em;
+    left: 50vw;
+    height: 9em;
+  }
+}
