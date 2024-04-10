@@ -128,12 +128,7 @@ input[type="date"] {
   vertical-align: middle;
   margin-top: -13px;
   letter-spacing: 0.2em;
-
-  &::before {
-    content: "yyyy-mm-dd";
-    width: 100%;
-    color: #304340;
-  }
+  height: 20px;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   width: 100%;
