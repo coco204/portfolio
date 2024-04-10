@@ -355,6 +355,7 @@ contact me
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
+  width: 40vw;
 }
 .or {
   position: absolute;
@@ -372,30 +373,30 @@ contact me
 .contactform {
   position: absolute;
   top: 5%;
-  left: 40%;
-  transform: translate(-100%, 0);
+  left: 0%;
 }
 .instagram {
   position: absolute;
-  top: 5em;
+  top: 10%;
   left: 55%;
-  transform: translate(50%, -50%);
+  transform: translate(50%, 0);
 }
 .contactform p {
   line-height: 35px;
   font-size: 16px;
   position: absolute;
-  top: 10.5em;
+  top: 10.3em;
   left: 55%;
   transform: translate(-50%, 0);
   white-space: nowrap;
 }
 .instagram p {
   position: absolute;
-  top: 10em;
+  top: 9.5em;
   line-height: 35px;
   font-size: 16px;
   font-weight: 400;
+  white-space: nowrap;
 }
 /* hover */
 .contactform img:hover {
@@ -422,5 +423,16 @@ contact me
   }
   100% {
     transform: translate(0px, 0px) rotateZ(0deg);
+  }
+}
+/* -------------------
+ipad landscape
+------------------- */
+
+@media screen and (max-width: 1024px) {
+  .column img {
+    width: 20vw;
+    margin-top: 12px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   }
 }
