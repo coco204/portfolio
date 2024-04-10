@@ -431,7 +431,7 @@ ipad landscape
 
 @media screen and (max-width: 1024px) {
   .column img {
-    width: 20vw;
+    width: 24vw;
     margin-top: 12px;
     filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   }

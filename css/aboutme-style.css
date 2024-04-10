@@ -244,3 +244,19 @@ TECHINICAL SKILLS
     transform: translate(0px, 0px) rotateZ(0deg);
   }
 }
+
+/* -------------------
+ipad landscape
+------------------- */
+
+@media screen and (max-width: 1024px) {
+  .intoroduction {
+    width: 70%;
+  }
+  .contact_button--1 img {
+    height: 9em;
+    position: absolute;
+    top: 60em;
+    left: 8em;
+  }
+}
