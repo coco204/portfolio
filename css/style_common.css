@@ -563,33 +563,33 @@ en
     font-size: 10px;
     letter-spacing: 0.1em;
   }
-}
-/* top line */
-.header_contents hr {
-  background-color: #22733f;
-  height: 2px;
-  width: 97%;
-  border-radius: 1px;
-  margin: auto;
-  align-items: "center";
-  position: absolute;
-  bottom: 0;
-}
-/* footer */
-footer hr {
-  background-color: #22733f;
-  height: 2px;
-  width: 97%;
-  border-radius: 1px;
-  margin: auto;
-  align-items: "center";
-}
-.footer_contents {
-  height: 50px;
-  color: #22733f;
-  font-weight: 400;
-  font-size: 6px;
-  letter-spacing: 0.25em;
-  text-align: center;
-  line-height: 85px;
+  /* top line */
+  .header_contents hr {
+    background-color: #22733f;
+    height: 2px;
+    width: 97%;
+    border-radius: 1px;
+    margin: auto;
+    align-items: "center";
+    position: absolute;
+    bottom: 0;
+  }
+  /* footer */
+  footer hr {
+    background-color: #22733f;
+    height: 2px;
+    width: 97%;
+    border-radius: 1px;
+    margin: auto;
+    align-items: "center";
+  }
+  .footer_contents {
+    height: 50px;
+    color: #22733f;
+    font-weight: 400;
+    font-size: 6px;
+    letter-spacing: 0.25em;
+    text-align: center;
+    line-height: 85px;
+  }
 }
