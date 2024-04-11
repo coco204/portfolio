@@ -409,7 +409,7 @@ mobile
     transform: translate(-50%, 0);
   }
   .intoroduction h1 {
-    margin-top: 26px;
+    margin-top: 25px;
     position: absolute;
     top: 0em;
     font-size: 28px;
@@ -417,22 +417,23 @@ mobile
   }
   .introduction_contents {
     display: flex;
+    width: 87%;
   }
   .intoroduction_p {
     display: flex;
     flex-flow: column;
   }
   .intoroduction p:nth-child(1) {
-    margin-top: 4.9em;
+    margin-top: 4.3em;
   }
   .intoroduction p:nth-child(2) {
-    margin-top: 0.5em;
+    margin-top: 1.2em;
   }
   .intoroduction p {
     width: 90vw;
     font-weight: 600;
     font-size: 14px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     line-height: 22px;
   }
   .intoroduction p:last-child {
@@ -445,7 +446,7 @@ mobile
     position: absolute;
     margin-left: 5px;
     margin-right: 5px;
-    top: 50vh;
+    top: 60%;
     right: 0;
     transform: translate(-100%, -100%);
     height: 43vh;
@@ -453,22 +454,22 @@ mobile
     filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   }
   .history {
-    width: 90vw;
+    width: 90%;
     position: absolute;
-    top: 40.4em;
+    top: 40em;
     left: 50%;
     transform: translate(-50%, 0);
     line-height: 18px;
   }
   .history dl {
-    margin-top: 48px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 157px;
+    height: 152px;
     border-left: 2px solid #304340;
     position: relative;
-    left: 53%;
+    left: 52%;
     transform: translate(-50%, 0);
   }
   .history dt::before {
@@ -485,12 +486,12 @@ mobile
     margin-left: -17px;
     margin-right: 5px;
     width: 30%;
-    padding-bottom: 2px;
-    margin-bottom: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
     font-weight: 800;
     font-size: 12px;
     letter-spacing: 0em;
-    line-height: 18px;
+    line-height: 12px;
   }
 
   .history dd {
@@ -509,7 +510,7 @@ mobile
   .contact_button--1 img {
     height: 25vw;
     position: absolute;
-    top: 56em;
+    top: 55em;
     left: 5%;
   }
 
@@ -518,7 +519,7 @@ mobile
   ------------------*/
   .skills {
     position: absolute;
-    top: 68em;
+    top: 66.6em;
     left: 50%;
     transform: translate(-50%, 0);
     width: 95vw;
@@ -558,42 +559,40 @@ mobile
     height: 300px;
     display: flex;
     position: absolute;
-    top: 82.5em;
+    top: 79.1em;
     left: 50%;
     transform: translate(-50%, 0);
   }
   .language {
-    width: 60vw;
+    width: 85%;
     margin-top: 87px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
   }
   .language img {
-    width: 60vw;
+    width: 55vw;
     padding-left: 5px;
     margin-top: 1.5px;
   }
   .language table {
     display: table-cell;
     line-height: 3.5px;
-    padding-top: 3.5px;
+    padding-top: 12px;
   }
   .language td {
     vertical-align: middle;
     padding-top: 14px;
-    letter-spacing: 0.2em;
-    font-size: 14px;
+    letter-spacing: 0.1em;
+    font-size: 12px;
     font-weight: 600;
-    display: flex;
-    flex-flow: column;
   }
   /* interest */
   .interest {
     width: 95vw;
     position: absolute;
     left: 50%;
-    top: 20em;
+    top: 18em;
     transform: translate(-50%, 0);
     text-align: center;
   }
@@ -630,8 +629,8 @@ mobile
   }
   .contact_button--2 img {
     position: absolute;
-    top: 112em;
+    top: 117em;
     left: 5%;
-    height: 9em;
+    height: 25vw;
   }
 }

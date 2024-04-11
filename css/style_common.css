@@ -584,3 +584,12 @@ footer hr {
   margin: auto;
   align-items: "center";
 }
+.footer_contents {
+  height: 50px;
+  color: #22733f;
+  font-weight: 400;
+  font-size: 6px;
+  letter-spacing: 0.25em;
+  text-align: center;
+  line-height: 85px;
+}
