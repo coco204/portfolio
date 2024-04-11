@@ -432,6 +432,9 @@ ipad landscape
 ------------------- */
 
 @media screen and (max-width: 1280px) {
+  .column {
+    width: 80%;
+  }
   .column img {
     width: 24vw;
     margin-top: 12px;
@@ -606,14 +609,14 @@ max-width: 835px
     line-height: 35px;
     font-size: 16px;
     position: absolute;
-    top: 10.3em;
+    top: 10em;
     left: 55%;
     transform: translate(-50%, 0);
     white-space: nowrap;
   }
   .instagram p {
     position: absolute;
-    top: 9.5em;
+    top: 9.2em;
     line-height: 35px;
     font-size: 16px;
     font-weight: 400;
@@ -794,14 +797,14 @@ ipad portrate
     line-height: 35px;
     font-size: 16px;
     position: absolute;
-    top: 10.3em;
+    top: 10em;
     left: 55%;
     transform: translate(-50%, 0);
     white-space: nowrap;
   }
   .instagram p {
     position: absolute;
-    top: 9.5em;
+    top: 9.2em;
     line-height: 35px;
     font-size: 16px;
     font-weight: 400;
