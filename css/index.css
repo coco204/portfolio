@@ -816,12 +816,18 @@ ipad portrate
 mobile
 ----------------- */
 @media (max-width: 428px) {
+  main {
+    height: 225em;
+  }
+  h3 {
+    font-size: 30px;
+  }
   /*----------------
  fv 
  ----------------*/
   #fv {
     width: 100%;
-    height: 70vh;
+    height: 76vh;
     position: absolute;
   }
   .title {
@@ -871,8 +877,8 @@ mobile
   .bracket {
     position: relative;
     left: 10px;
-    top: 3px;
-    height: 150px;
+    top: 7px;
+    height: 135px;
   }
   .service_contents ul {
     list-style: none;
@@ -890,8 +896,9 @@ mobile
   }
   .service_contents li {
     font-size: 12px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     line-height: 40px;
+    font-weight: 600;
     white-space: nowrap;
   }
   .service_contents li span {
@@ -910,30 +917,24 @@ mobile
  SERVICE FLOW
  ------------- */
   .serviceflow {
-    position: absolute;
-    top: 80em;
-    left: 50%;
-    transform: translate(-50%, 0);
-    height: 100vh;
-  }
-  .serviceflow_contents {
-    width: 100%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+    top: 72.5em;
+    width: 90vw;
   }
   .serviceflow_contents {
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
+    flex-flow: column;
   }
   .serviceflow_contents section {
-    width: 300px;
+    width: 100%;
     text-align: center;
   }
+  .serviceflow_contents h3 {
+    font-size: 14px;
+    font-weight: 700;
+  }
   .serviceflow_contents img {
-    width: 170px;
+    width: 90px;
     margin-top: -5px;
   }
   .serviceflow_contents section p {
@@ -941,21 +942,80 @@ mobile
     font-size: 14px;
     letter-spacing: normal;
     text-align: left;
+    letter-spacing: 0em;
+  }
+  /* h3 */
+  .serviceflow_contents section:nth-child(1) h3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .serviceflow_contents section:nth-child(2) h3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 22.8em;
+  }
+  .serviceflow_contents section:nth-child(3) h3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 43em;
+  }
+  /* img */
+  .serviceflow_contents section:nth-child(1) img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 2.5em;
+  }
+  .serviceflow_contents section:nth-child(2) img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 22em;
+  }
+  .serviceflow_contents section:nth-child(3) img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 40em;
+  }
+  /* p */
+  .serviceflow_contents section:nth-child(1) p {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 9.8em;
+    width: 85vw;
+  }
+  .serviceflow_contents section:nth-child(2) p {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 33em;
+    width: 85vw;
+  }
+  .serviceflow_contents section:nth-child(3) p {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 52.8em;
+    width: 85vw;
   }
 
   /*---------------
  jump to contact 
  ----------------*/
   .contact_button-1 {
-    height: 20vh;
     position: absolute;
-    left: 60%;
+    left: 10%;
   }
   .contact_button-1 img {
-    width: 23vw;
+    width: 150px;
     position: absolute;
-    bottom: 5%;
-    left: 60%;
+    top: 28em;
+    left: 10%;
   }
 
   /*--------------------
@@ -963,33 +1023,33 @@ mobile
  --------------------- */
   .column {
     display: flex;
-    width: 60%;
     position: absolute;
-    top: 132.5em;
+    top: 150em;
     left: 50%;
     transform: translate(-50%, 0);
     height: 100vh;
   }
   .column img {
-    width: 16vw;
+    width: 120px;
     margin-top: 12px;
     filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   }
-
   .aboutme {
     position: absolute;
-    left: 50%;
+    left: 5%;
     transform: translate(-50%, 0);
   }
   .works {
     position: absolute;
-    top: 10em;
-    left: 0;
+    top: 22.5em;
+    left: 5%;
+    transform: translate(-50%, 0);
   }
   .menu {
     position: absolute;
-    top: 10em;
-    right: 0;
+    top: 12.5em;
+    right: 0%;
+    transform: translate(50%, 0);
   }
 
   /*--------------
@@ -997,7 +1057,7 @@ contact me
 ----------------*/
   .contactme {
     position: absolute;
-    top: 172.5em;
+    top: 197.5em;
     left: 50%;
     transform: translate(-50%, 0);
   }
@@ -1008,20 +1068,20 @@ contact me
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 40vw;
+    width: 50vw;
   }
   .or {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 700;
   }
   .contactform img {
-    width: 17vw;
+    width: 150px;
   }
   .instagram img {
-    width: 7vw;
+    width: 60px;
   }
   .contactform {
     position: absolute;
@@ -1038,14 +1098,14 @@ contact me
     line-height: 35px;
     font-size: 16px;
     position: absolute;
-    top: 10.3em;
+    top: 8em;
     left: 55%;
     transform: translate(-50%, 0);
     white-space: nowrap;
   }
   .instagram p {
     position: absolute;
-    top: 9.5em;
+    top: 7.2em;
     line-height: 35px;
     font-size: 16px;
     font-weight: 400;
