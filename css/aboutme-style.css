@@ -8,7 +8,7 @@ accent:E09132(orange) RGB(224, 145, 50)
 
 /* note lines */
 main {
-  width: 95vw;
+  width: 97vw;
   margin-left: 1.2vw;
   margin-right: 1.2vw;
   margin-bottom: -1px;
@@ -45,7 +45,7 @@ main {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.2em;
-  width: 47vw;
+  width: 80%;
 }
 .intoroduction img {
   margin-top: -80px;
@@ -250,18 +250,7 @@ TECHINICAL SKILLS
     transform: translate(0px, 0px) rotateZ(0deg);
   }
 }
-/* -------------------
-exception
-------------------- */
 
-@media screen and (min-width: 1900px) {
-  .intoroduction p {
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.2em;
-    width: 42vw;
-  }
-}
 /* -------------------
 ipad landscape
 ------------------- */
@@ -269,6 +258,15 @@ ipad landscape
 @media screen and (max-width: 1280px) {
   .intoroduction {
     width: 65%;
+  }
+  .intoroduction p {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    width: 70%;
+  }
+  .intro-br {
+    display: none;
   }
   .history {
     width: 70%;
