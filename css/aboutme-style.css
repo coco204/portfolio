@@ -38,17 +38,21 @@ main {
 .introduction_contents {
   display: flex;
 }
-.intoroduction_p {
+.intoroduction p:first-child {
   margin-top: 2.3em;
 }
 .intoroduction p {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.2em;
+  width: 47vw;
 }
 .intoroduction img {
   margin-top: -80px;
   margin-right: -80px;
+  position: absolute;
+  top: 30%;
+  right: 3%;
   height: 30em;
   transform: rotate(6deg);
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
@@ -445,8 +449,8 @@ mobile
   .intoroduction img {
     position: absolute;
     margin-left: 5px;
-    margin-right: 5px;
-    top: 60%;
+    margin-right: 3px;
+    top: 62%;
     right: 0;
     transform: translate(-100%, -100%);
     height: 43vh;
@@ -607,7 +611,7 @@ mobile
   }
   .interest li::before {
     display: inline-block;
-    margin: 0px 6px 0 10px;
+    margin: 0px 6px 0 0px;
     width: 7px;
     height: 7px;
     content: "";

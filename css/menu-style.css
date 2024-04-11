@@ -213,7 +213,7 @@ tr:first-child th {
   margin-top: 20px;
   width: 60%;
   position: relative;
-  left: 60%;
+  left: 50%;
   transform: translate(-50%, 0);
   text-align: center;
 }
@@ -371,5 +371,270 @@ ipad portrate
     left: 50%;
     transform: translate(-50%, 0);
     text-align: center;
+  }
+}
+
+/* ----------------
+mobile
+----------------- */
+@media (max-width: 428px) {
+  main {
+    width: 95vw;
+    margin-top: 2.3em;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-bottom: 1em;
+    padding: 0;
+    background-image: linear-gradient(
+        90deg,
+        transparent 0%,
+        transparent 5%,
+        #ffefcd 0%,
+        #ffefcd 100%
+      ),
+      linear-gradient(180deg, rgba(34, 115, 63, 0.6) 2px, transparent 1px); /* line setting  */
+    background-size: 1.8em 100%, 100% 1.8em; /* line height */
+    line-height: 1.8em; /* character height */
+  }
+  h2 {
+    font-size: 24px;
+  }
+  /* intro */
+  .introduction {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 146px;
+  }
+  .introduction h1 {
+    line-height: 30px;
+    font-size: 28px;
+  }
+  .introduction ul {
+    display: flex;
+  }
+  .introduction li {
+    list-style: none;
+  }
+  .jump-1,
+  .jump-2 {
+    margin-top: 30px;
+    margin-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: #22733f;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+    text-align: center;
+    line-height: normal;
+  }
+  .introduction a {
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffefcd;
+  }
+  .small {
+    font-size: 10px;
+    vertical-align: top;
+  }
+  /* website */
+  #website {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  #website p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .website_contents {
+    margin-top: 10px;
+    width: 98%;
+  }
+  .website_contents img {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  }
+  .design,
+  .development {
+    margin-top: 3px;
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    position: relative;
+    left: 0%;
+    transform: translate(0, 0);
+    overflow-x: scroll;
+  }
+  .design section,
+  .development section {
+    flex-shrink: 0;
+  }
+  .design::-webkit-scrollbar,
+  .development::-webkit-scrollbar {
+    height: 8px; /* スクロールバーの高さ */
+  }
+  .design::-webkit-scrollbar-thumb,
+  .development::-webkit-scrollbar-thumb {
+    background: #22733f; /* ツマミの色 */
+    border-radius: 4px; /* ツマミ両端の丸み */
+  }
+  .design::-webkit-scrollbar-track,
+  .development::-webkit-scrollbar-track {
+    background: rgba(34, 115, 63, 0.3); /* トラックの色 */
+    border-radius: 6px; /* トラック両端の丸み */
+  }
+  h3 {
+    width: 100%;
+    text-align: left;
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  section {
+    white-space: nowrap;
+    display: flex;
+  }
+  .website_contents ul {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 180px;
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    border: 2px solid #e09132;
+  }
+  .title {
+    font-size: 16px;
+    margin-bottom: 3px;
+    font-weight: 600;
+  }
+  .price {
+    text-align: right;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .development_title {
+    margin-top: 48px;
+    line-height: 25px;
+  }
+  .development_title span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  .development {
+    margin-top: 10px;
+  }
+  /* option */
+  .option {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    width: 95vw;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .option table {
+    margin-top: 20px;
+    width: 90%;
+    line-height: normal;
+    border-collapse: collapse;
+    border: none;
+    white-space: normal;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .option span {
+    display: inline-block;
+  }
+  .option th,
+  td {
+    padding: 5px 0px;
+    border: none;
+    border-left: 2px solid rgba(224, 145, 50, 0.4);
+    border-top: 2px solid rgba(224, 145, 50, 0.4);
+  }
+
+  .option td:first-child,
+  th:first-child,
+  .null,
+  .null-1,
+  .null_top-1 {
+    border-left: none;
+  }
+  .option tr:first-child td,
+  tr:first-child th {
+    border-top: none;
+  }
+  .null,
+  .null_top,
+  .null_top-1 {
+    border-top: none;
+  }
+  .option th {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .option td {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  /* package */
+  #package {
+    margin-top: 20px;
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+  }
+
+  .package_menu table {
+    width: 80vw;
+    margin-top: 30px;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .package_menu th,
+  .package_menu td {
+    border: none;
+    text-align: left;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+  .package_menu td {
+    padding-left: 30px;
+  }
+  .order_button img {
+    margin-top: 25px;
+    margin-bottom: 80px;
+    transform: rotate(-2deg);
+    width: 150px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.3));
+  }
+  .order_button:hover img {
+    opacity: 0.8;
   }
 }
