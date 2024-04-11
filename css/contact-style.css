@@ -274,3 +274,149 @@ ipad portrate
     text-align: left;
   }
 }
+/* ----------------
+mobile
+----------------- */
+@media (max-width: 428px) {
+  /* introduction */
+  .introduction {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .introduction h1 {
+    text-align: left;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.2em;
+  }
+  .memo {
+    margin-top: 5px;
+    margin-left: -5px;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .memo-en {
+    letter-spacing: 0.1em;
+  }
+  /* contactform */
+  .contactform {
+    width: 80%;
+    position: absolute;
+    top: 10em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .contactform h2 {
+    text-align: left;
+  }
+  .contactform p {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: #e09132;
+    line-height: 20px;
+  }
+  .form_contents {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .main_contents label {
+    letter-spacing: 0.3em;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-bottom: 0;
+    color: #304340;
+  }
+  .mark {
+    color: #e09132;
+  }
+  input,
+  button,
+  select,
+  textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  input,
+  textarea,
+  select {
+    width: 65vw;
+    background-color: rgba(202, 141, 67, 0.13);
+    font-family: "roboto", "Noto Sans JP", sans-serif;
+    color: #304340;
+    font-size: 12px;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-weight: 400;
+    vertical-align: middle;
+    margin-top: -13px;
+    letter-spacing: 0.1em;
+  }
+  .happy {
+    white-space: nowrap;
+    margin-top: 12px;
+    position: absolute;
+    top: 46.1em;
+    left: 45%;
+    transform: translate(-50%, -0);
+    height: 40px;
+    letter-spacing: 0.1em;
+  }
+  .happy label {
+    line-height: 50px;
+  }
+  .happy select {
+    width: 100px;
+    margin-top: -1px;
+  }
+  .happy img {
+    width: 60px;
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -50%);
+  }
+  /* en */
+  .happy input {
+    width: 100px;
+    background-color: rgba(202, 141, 67, 0.13);
+    font-family: "roboto", "Noto Sans JP", sans-serif;
+    color: #304340;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-weight: 400;
+    vertical-align: middle;
+    margin-top: -3px;
+    letter-spacing: 0.1em;
+  }
+  button {
+    border: none;
+    background: transparent;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 135px;
+  }
+  button img {
+    width: 150px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
