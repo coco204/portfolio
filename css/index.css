@@ -811,3 +811,244 @@ ipad portrate
     white-space: nowrap;
   }
 }
+
+/* ----------------
+mobile
+----------------- */
+@media (max-width: 428px) {
+  /*----------------
+ fv 
+ ----------------*/
+  #fv {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+  }
+  .title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 7.4em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation-name: fadeInAnime;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 41px;
+  }
+  .title p {
+    margin-top: 2.5em;
+    font-size: 16px;
+    letter-spacing: 0.4em;
+    line-height: 2.5em;
+  }
+  .title p span {
+    display: inline-block;
+  }
+
+  /*---------------
+ SERVICE 
+ ----------------*/
+  .service {
+    width: 90%;
+    height: 60vh;
+    position: absolute;
+    top: 40em;
+  }
+
+  .service_contents {
+    margin-top: 42px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .bracket {
+    position: relative;
+    left: 10px;
+    top: 3px;
+    height: 150px;
+  }
+  .service_contents ul {
+    list-style: none;
+  }
+  .service_contents li:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background-color: #304340;
+    border-radius: 50%;
+    position: relative;
+    top: -4px;
+    margin-right: 5px;
+  }
+  .service_contents li {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+  .service_contents li span {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+  }
+  .menu_button {
+    width: 150px;
+    position: absolute;
+    left: 57%;
+    top: 12.5em;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  }
+
+  /*------------
+ SERVICE FLOW
+ ------------- */
+  .serviceflow {
+    position: absolute;
+    top: 80em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100vh;
+  }
+  .serviceflow_contents {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .serviceflow_contents {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+  }
+  .serviceflow_contents section {
+    width: 300px;
+    text-align: center;
+  }
+  .serviceflow_contents img {
+    width: 170px;
+    margin-top: -5px;
+  }
+  .serviceflow_contents section p {
+    margin-top: -18px;
+    font-size: 14px;
+    letter-spacing: normal;
+    text-align: left;
+  }
+
+  /*---------------
+ jump to contact 
+ ----------------*/
+  .contact_button-1 {
+    height: 20vh;
+    position: absolute;
+    left: 60%;
+  }
+  .contact_button-1 img {
+    width: 23vw;
+    position: absolute;
+    bottom: 5%;
+    left: 60%;
+  }
+
+  /*--------------------
+ Columns
+ --------------------- */
+  .column {
+    display: flex;
+    width: 60%;
+    position: absolute;
+    top: 132.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100vh;
+  }
+  .column img {
+    width: 16vw;
+    margin-top: 12px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  }
+
+  .aboutme {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .works {
+    position: absolute;
+    top: 10em;
+    left: 0;
+  }
+  .menu {
+    position: absolute;
+    top: 10em;
+    right: 0;
+  }
+
+  /*--------------
+contact me
+----------------*/
+  .contactme {
+    position: absolute;
+    top: 172.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .contactme_contents {
+    margin-top: 25px;
+    text-align: center;
+    height: 38vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 40vw;
+  }
+  .or {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+  }
+  .contactform img {
+    width: 17vw;
+  }
+  .instagram img {
+    width: 7vw;
+  }
+  .contactform {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+  }
+  .instagram {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform: translate(50%, 0);
+  }
+  .contactform p {
+    line-height: 35px;
+    font-size: 16px;
+    position: absolute;
+    top: 10.3em;
+    left: 55%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+  }
+  .instagram p {
+    position: absolute;
+    top: 9.5em;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+}
