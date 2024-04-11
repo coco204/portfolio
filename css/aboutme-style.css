@@ -250,7 +250,18 @@ TECHINICAL SKILLS
     transform: translate(0px, 0px) rotateZ(0deg);
   }
 }
+/* -------------------
+exception
+------------------- */
 
+@media screen and (min-width: 1900px) {
+  .intoroduction p {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    width: 42vw;
+  }
+}
 /* -------------------
 ipad landscape
 ------------------- */
