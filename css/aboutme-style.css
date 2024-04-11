@@ -8,7 +8,7 @@ accent:E09132(orange) RGB(224, 145, 50)
 
 /* note lines */
 main {
-  width: 96.5vw;
+  width: 95vw;
   margin-left: 1.2vw;
   margin-right: 1.2vw;
   margin-bottom: -1px;
@@ -362,6 +362,224 @@ ipad portrate
     position: absolute;
     top: 112em;
     left: 50vw;
+    height: 9em;
+  }
+}
+
+/* ----------------
+mobile
+----------------- */
+@media (max-width: 428px) {
+  .intoroduction {
+    padding-top: 61px;
+    width: 90vw;
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .intoroduction h1 {
+    margin-top: 32px;
+    position: absolute;
+    top: 0em;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .introduction_contents {
+    display: flex;
+  }
+  .intoroduction p {
+    width: 90vw;
+    margin-top: 5em;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    position: relative;
+  }
+  .intoroduction img {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    top: 40vh;
+    transform: translate(0, -100%);
+    height: 45vh;
+    transform: rotate(6deg);
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  }
+  .history {
+    width: 95vw;
+    position: absolute;
+    top: 38em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .history dl {
+    margin-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+    height: 300px;
+    border-left: 3px solid #304340;
+    position: relative;
+    left: 54%;
+    transform: translate(-50%, 0);
+  }
+  .history dt::before {
+    display: inline-block;
+    margin: 0px 9px 0 8px;
+    width: 15px;
+    height: 15px;
+    content: "";
+    border-radius: 100%;
+    background: #304340;
+    vertical-align: middle;
+  }
+  .history dt {
+    margin-left: -17px;
+    margin-right: 10px;
+    width: 30%;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+  }
+
+  .history dd {
+    width: 70%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+  }
+  /* contact_button */
+  .contact_button--1 {
+    position: relative;
+  }
+  .contact_button--1 img {
+    height: 9em;
+    position: absolute;
+    top: 60em;
+    left: 5%;
+  }
+
+  /* ---------------
+  TECHINICAL SKILLS 
+  ------------------*/
+  .skills {
+    position: absolute;
+    top: 70em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 95vw;
+  }
+  .skill_stickers {
+    margin-top: 2px;
+    height: 200px;
+  }
+  .skill_stickers img {
+    width: 55px;
+    margin-left: 1px;
+    margin-right: 1px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  }
+  .group-1 {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .group-2 {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .php {
+    opacity: 0;
+  }
+  /*---------
+   last_section 
+  -------------*/
+  /* language */
+  .last_section {
+    width: 95vw;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 90.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .language {
+    width: 45%;
+    margin-top: 87px;
+    position: absolute;
+    left: 0%;
+  }
+  .language img {
+    width: 195px;
+    padding-left: 5px;
+    margin-top: 1.5px;
+  }
+  .language table {
+    display: table-cell;
+    line-height: 3.5px;
+    padding-top: 3.5px;
+  }
+  .language td {
+    vertical-align: middle;
+    padding-top: 28px;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /* interest */
+  .interest {
+    width: 95vw;
+    margin-top: 89px;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+  }
+  .interest ul {
+    display: flex;
+    margin-top: 30px;
+    list-style: none;
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%, 0);
+    text-align: left;
+  }
+  .interest li::before {
+    display: inline-block;
+    margin: 0px 6px 0 10px;
+    width: 7px;
+    height: 7px;
+    content: "";
+    border-radius: 100%;
+    background: #304340;
+    vertical-align: middle;
+  }
+  .interest li {
+    display: inline-block;
+    width: 150px;
+    white-space: nowrap;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /* contact_button */
+  .contact_button--2 {
+    position: relative;
+  }
+  .contact_button--2 img {
+    position: absolute;
+    top: 112em;
+    left: 5%;
     height: 9em;
   }
 }
