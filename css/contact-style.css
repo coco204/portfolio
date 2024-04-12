@@ -29,7 +29,7 @@ main {
   background-size: 100% 2.5em; /* line height */
   line-height: 2.5em; /* character height */
   position: relative;
-  height: 75em;
+  height: 82em;
 }
 
 /* introduction */
@@ -198,6 +198,14 @@ select:focus,
   margin-top: -3px;
   letter-spacing: 0.2em;
 }
+/* recaptcha*/
+.recaptcha-item {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 108px;
+}
+/* submit */
 button {
   border: none;
   background: transparent;
