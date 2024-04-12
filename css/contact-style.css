@@ -219,14 +219,14 @@ button img {
   width: 150px;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   position: absolute;
-  top: 50px;
+  top: 110px;
   left: 50%;
   transform: translate(-50%, 0);
 }
 button img:hover {
   filter: none;
   position: absolute;
-  top: 52px;
+  top: 112px;
   left: 50%;
   transform: translate(-48%, 0);
 }
