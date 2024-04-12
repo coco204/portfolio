@@ -29,6 +29,11 @@
   to = "/footer.html"
   status = 200
   force = true
+[[redirects]]
+  from = "/thanks.html"
+  to = "/thanks.html"
+  status = 200
+  force = true
 
 ## 言語ごとのリライト
 [[redirects]]

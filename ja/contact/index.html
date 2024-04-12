@@ -186,7 +186,13 @@
           <h2>Hi COCO,</h2>
           <p><span class="mark">*</span>入力必須項目</p>
           <div class="form_contents">
-            <form name="contact" method="post" data-netlify="true">
+            <form
+              name="contact"
+              method="post"
+              action="/thanks.html"
+              data-netlify-recaptcha="true"
+              data-netlify="true"
+            >
               <div class="main_contents">
                 <div class="name">
                   <label for="name"><span class="mark">*</span>お名前：</label>
@@ -202,7 +208,7 @@
                 </div>
                 <div class="subject">
                   <label for="subject"><span class="mark">*</span>件名：</label>
-                  <select name="subject" id="subject" required>
+                  <select name="subject[]" id="subject" required>
                     <option value="" selected disabled>選択してください</option>
                     <option value="cheer you up">励ましの言葉</option>
                     <option value="cheer you up">とりあえず相談</option>
@@ -211,7 +217,7 @@
                 </div>
                 <div class="menu">
                   <label for="menu">&nbsp;メニュー：</label>
-                  <select name="menu" id="menu">
+                  <select name="menu[]" id="menu">
                     <option value="" selected>
                       お決まりであれば、選択してください
                     </option>
@@ -254,7 +260,7 @@
                 <div class="happy">
                   <label for="happy"
                     ><span class="mark">*</span>Have a
-                    <select name="happy" id="happy" required>
+                    <select name="happy[]" id="happy" required>
                       <option value="good">good</option>
                       <option value="wonderful">wonderful</option>
                       <option value="nice">nice</option>
@@ -266,6 +272,10 @@
                       alt="smile"
                     />
                   </label>
+                </div>
+                <!-- recaptcha -->
+                <div class="recaptcha-item">
+                  <div data-netlify-recaptcha="true"></div>
                 </div>
                 <div class="submit">
                   <button type="submit" name="action" value="'send'">

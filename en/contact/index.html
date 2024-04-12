@@ -188,7 +188,13 @@
           <h2>Hi COCO,</h2>
           <p><span class="mark">*</span>required</p>
           <div class="form_contents">
-            <form name="contact" method="post" data-netlify="true">
+            <form
+              name="contact"
+              method="post"
+              action="/thanks.html"
+              data-netlify-recaptcha="true"
+              data-netlify="true"
+            >
               <div class="main_contents">
                 <div class="name">
                   <label for="name"><span class="mark">*</span>NAME：</label>
@@ -206,7 +212,7 @@
                   <label for="subject"
                     ><span class="mark">*</span>SUBJECT：</label
                   >
-                  <select name="subject" id="subject" required>
+                  <select name="subject[]" id="subject" required>
                     <option value="" selected disabled>please select</option>
                     <option value="cheer you up">To cheer you up!</option>
                     <option value="cheer you up">To ask something.</option>
@@ -215,7 +221,7 @@
                 </div>
                 <div class="menu">
                   <label for="menu">&nbsp;MENU：</label>
-                  <select name="menu" id="menu">
+                  <select name="menu[]" id="menu">
                     <option value="" selected>plese select</option>
                     <option value="web_design-A">A:design(TOP)</option>
                     <option value="web_design-B">B:design(TOP+3P)</option>
@@ -260,13 +266,17 @@
                 <div class="happy">
                   <label for="happy" required
                     ><span class="mark">*</span>Have a
-                    <input type="text" id="happy" name="happy" required />
+                    <input type="text" id="happy" name="happy[]" required />
                     day
                     <img
                       src="../../img/contact_me/contact_smile.png"
                       alt="smile"
                     />
                   </label>
+                </div>
+                <!-- recaptcha -->
+                <div class="recaptcha-item">
+                  <div data-netlify-recaptcha="true"></div>
                 </div>
                 <div class="submit">
                   <button type="submit" name="action" value="'send'">
