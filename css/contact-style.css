@@ -200,10 +200,10 @@ select:focus,
 }
 /* recaptcha*/
 .recaptcha-item {
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  margin-top: 108px;
+  top: 51em;
 }
 /* submit */
 button {
