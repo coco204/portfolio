@@ -204,6 +204,7 @@ select:focus,
   left: 50%;
   transform: translate(-50%, 0);
   top: 51em;
+  height: 3em;
 }
 /* submit */
 button {
@@ -218,14 +219,14 @@ button img {
   width: 150px;
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 50%;
   transform: translate(-50%, 0);
 }
 button img:hover {
   filter: none;
   position: absolute;
-  top: 2px;
+  top: 52px;
   left: 50%;
   transform: translate(-48%, 0);
 }
