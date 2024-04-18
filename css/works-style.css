@@ -7,7 +7,7 @@ accent:E09132(orange) RGB(224, 145, 50)
 */
 
 main {
-  width: 60%;
+  width: 80%;
   height: 100vh;
   position: relative;
   left: 50%;
@@ -16,6 +16,127 @@ main {
 h1 {
   margin-top: 30px;
 }
-main img {
-  width: 100%;
+h3 {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-top: 30px;
+  line-height: 25px;
+}
+/*----------------
+ website 
+ -----------------*/
+.webdesign img {
+  width: 45vw;
+}
+.webdesign section {
+  display: flex;
+}
+.info {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.work {
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  font-size: 16px;
+}
+.webdesign a {
+  text-decoration: underline;
+  color: #304340;
+  letter-spacing: 0.2em;
+  font-size: 16px;
+  line-height: 30px;
+}
+.webdesign hr {
+  background-color: #304340;
+  height: 6px;
+  width: 85vw;
+  border-radius: 1px;
+  margin: auto;
+  align-items: "center";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/*----------------
+package
+ -----------------*/
+.packagedesign {
+  margin-top: 70px;
+}
+
+/* ----------------
+max-width: 835px
+----------------- */
+@media (max-width: 835px) {
+  .name {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+  }
+  .title {
+    margin-top: 20px;
+  }
+  .work {
+    letter-spacing: 0.1em;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .webdesign a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .webdesign hr {
+    height: 5px;
+  }
+}
+/* ----------------
+mobile
+----------------- */
+@media (max-width: 428px) {
+  h1 {
+    margin-top: 30px;
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .name {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+  .title {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .info {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .work {
+    letter-spacing: 0.1em;
+    line-height: 15px;
+    font-size: 10px;
+  }
+  .webdesign a {
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0;
+  }
+  .webdesign hr {
+    height: 5px;
+  }
 }
