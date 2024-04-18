@@ -7,7 +7,7 @@ accent:E09132(orange) RGB(224, 145, 50)
 */
 
 main {
-  width: 80%;
+  width: 70%;
   height: 100vh;
   position: relative;
   left: 50%;
@@ -61,7 +61,7 @@ h3 {
 .webdesign hr {
   background-color: #304340;
   height: 6px;
-  width: 85vw;
+  width: 75vw;
   border-radius: 1px;
   margin: auto;
   align-items: "center";
@@ -80,6 +80,9 @@ package
 max-width: 835px
 ----------------- */
 @media (max-width: 835px) {
+  main {
+    width: 80%;
+  }
   .name {
     font-size: 18px;
     font-weight: 800;
@@ -99,6 +102,7 @@ max-width: 835px
   }
   .webdesign hr {
     height: 5px;
+    width: 85vw;
   }
 }
 /* ----------------
@@ -137,6 +141,6 @@ mobile
     letter-spacing: 0;
   }
   .webdesign hr {
-    height: 5px;
+    height: 4px;
   }
 }
