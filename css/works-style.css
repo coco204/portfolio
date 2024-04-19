@@ -81,7 +81,10 @@ max-width: 835px
 ----------------- */
 @media (max-width: 835px) {
   main {
-    width: 80%;
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
   .name {
     font-size: 18px;
@@ -109,6 +112,12 @@ max-width: 835px
 mobile
 ----------------- */
 @media (max-width: 428px) {
+  main {
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
   h1 {
     margin-top: 30px;
     font-size: 28px;
@@ -125,19 +134,21 @@ mobile
   .title {
     margin-top: 5px;
     font-size: 10px;
+    line-height: 18px;
   }
   .info {
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
   }
   .work {
     letter-spacing: 0.1em;
-    line-height: 15px;
+    line-height: 12px;
     font-size: 10px;
+    white-space: nowrap;
   }
   .webdesign a {
     font-size: 10px;
-    line-height: 20px;
+    line-height: 15px;
     letter-spacing: 0;
   }
   .webdesign hr {
